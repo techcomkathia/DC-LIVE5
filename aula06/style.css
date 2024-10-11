@@ -1,0 +1,124 @@
+/* import de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* resets de propriedades */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* variáveis globais */
+
+
+
+/* estilos gerais */
+
+
+body{
+    background-color: azure;
+    border: 5px solid purple;
+}
+
+h1, h2, h3{
+    font-family: 'Edu AU VIC WA NT Guides', cursive;
+    font-weight: 900;
+}
+
+h1{
+    color:white;
+    background-color: purple;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2{
+   color: purple;
+   font-size: 40px;
+   text-align: center;
+}
+
+h3{
+    color: white;
+    background-color: blueviolet;
+    font-size: 30px;
+
+}
+
+
+.verde{
+    background-color: green;
+    border: 5px solid red;
+    padding: 5px;
+    margin: 20px;
+}
+
+.azul{
+    background-color: blue;
+    color:azure;
+    border: 2px solid red;
+    margin: 15px;
+}
+
+p{
+    text-align: justify;
+}
+
+.container{
+    border: 0px;
+}
+
+#um{
+    background-color: rgb(245, 197, 179);
+    padding: 25px;
+    margin: 50px  30px 0px 30px;
+    border: 4px solid rgb(103, 17, 17);
+    display: block;
+    width: 200px;
+}
+
+img{
+    display: none;
+}
+
+#dois{
+    background-color: rgba(242, 183, 6, 0.33);
+    padding: 5px;
+    margin: 10px ;
+    border: 4px dashed rgb(169, 119, 27);
+    display: inline-block;
+    width: 300px;
+   
+}
+
+#tres{
+    background-color: blue;
+    padding: 40px;
+    margin:40px 20px;
+    border: 8px solid purple;
+    
+}
+
+
+/* ATIVIDADE - 
+https://dontpad.com/DIGITALFS351822/HTML06
+
+
+Crie uma página web contendo três caixas alinhadas verticalmente. Aplique diferentes valores de espaçamento interno (entre o conteúdo e as bordas) e afastamento externo (entre as caixas e os limites da página) para cada caixa, conforme as orientações abaixo:
+
+Primeira Caixa:
+Aplique um afastamento externo de 50px apenas no topo e 30px nas laterais.
+Defina um espaçamento interno de 25px entre o conteúdo e as bordas da caixa.
+Adicione uma borda com 4px de espessura e cor vermelha.
+
+Segunda Caixa:
+Aplique um afastamento externo de 10px em todos os lados da caixa.
+Defina um espaçamento interno de 5px entre o conteúdo e as bordas da caixa.
+Adicione uma borda com 6px de espessura, no estilo tracejado, com cor laranja.
+
+Terceira Caixa:
+Aplique um afastamento externo de 20px nas laterais e 40px no topo e embaixo.
+Defina um espaçamento interno de 40px entre o conteúdo e as bordas da caixa.
+Adicione uma borda com 8px de espessura e cor roxa, no estilo sólido.
+Desafio Extra: Ajuste os valores de afastamento externo e espaçamento interno para obter um layout visualmente interessante, mudando as distâncias entre as caixas e o conteúdo. */
